@@ -1,0 +1,17 @@
+/* ID selectors stylesheet */
+.oddball {
+    background-color: #ee82a2;
+    font: Verdana, "DejaVu Sans", sans-serif;
+}
+.oddball.cooler {
+    font-size: 24px;
+}
+#id-one {
+    color: #1310db;
+    font-size: 36px;
+}
+#id-another {
+    background-color: #0edd5d;
+    font-size: 24px;
+    font-weight: 700;
+}

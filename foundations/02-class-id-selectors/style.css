@@ -1,7 +1,7 @@
 /* ID selectors stylesheet */
 .oddball {
     background-color: #ee82a2;
-    font: Verdana, "DejaVu Sans", sans-serif;
+    font-family:  Verdana, "DejaVu Sans", sans-serif;
 }
 .oddball.cooler {
     font-size: 24px;

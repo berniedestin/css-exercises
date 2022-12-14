@@ -12,6 +12,32 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.header .head-left,
+.header .head-right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 16px;
+}
+.head-right {
+  margin-left: auto;
+  align-items: center;
+}
+
+
+.head-left ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -20,7 +46,9 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
 }
+
 
 .logo {
   color: rebeccapurple;
@@ -36,6 +64,7 @@ button {
   color: white;
   padding: 8px 24px;
 }
+
 
 a {
   /* this removes the line under our links */
